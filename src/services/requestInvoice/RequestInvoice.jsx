@@ -8,7 +8,7 @@ import DescriptionIcon from "@mui/icons-material/Description";
 
 const RequestInvoice = () => {
   return (
-    <Stack alignItems="center" minHeight="100vh" justifyContent="space-between">
+    <>
       <PageTitle
         icon={<DescriptionIcon />}
         title="Request Invoice"
@@ -39,7 +39,7 @@ const RequestInvoice = () => {
         </form>
       </Stack>
       <Box />
-    </Stack>
+    </>
   );
 };
 

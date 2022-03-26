@@ -11,12 +11,7 @@ const ManageCode = () => {
   const [isChangeCodeSelected, setIsChangeCodeSelected] = useState(false);
 
   return (
-    <Stack
-      sx={{
-        minHeight: "100vh",
-        justifyContent: "space-between",
-      }}
-    >
+    <>
       <PageTitle
         icon={<LockOutlinedIcon />}
         title="Manage Code"
@@ -74,7 +69,7 @@ const ManageCode = () => {
           visiblilty: "hidden",
         }}
       />
-    </Stack>
+    </>
   );
 };
 

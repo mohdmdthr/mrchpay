@@ -22,7 +22,7 @@ const ManageCards = () => {
       <ButtonGroup
         sx={{
           justifyContent: "space-between",
-          mt: "2rem",
+          mt: "1rem",
           width: "100%",
           "& .MuiButton-root	": {
             borderRadius: "15px",

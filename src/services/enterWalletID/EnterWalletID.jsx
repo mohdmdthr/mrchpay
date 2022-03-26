@@ -8,7 +8,7 @@ import CurrencyExchangeOutlinedIcon from "@mui/icons-material/CurrencyExchangeOu
 
 const EnterWalletID = () => {
   return (
-    <Stack alignItems="center" minHeight="100vh" justifyContent="space-between">
+    <>
       <PageTitle
         icon={<CurrencyExchangeOutlinedIcon />}
         title="Exchange"
@@ -39,7 +39,7 @@ const EnterWalletID = () => {
         </form>
       </Stack>
       <Box />
-    </Stack>
+    </>
   );
 };
 

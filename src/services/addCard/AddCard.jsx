@@ -10,13 +10,7 @@ import {
 
 const AddCard = () => {
   return (
-    <Stack
-      sx={{
-        minHeight: "100vh",
-        justifyContent: "center",
-        alignItems: "center",
-      }}
-    >
+    <>
       <form className="app-form">
         <Stack spacing={2}>
           <Typography variant="h6">Add card</Typography>
@@ -27,7 +21,7 @@ const AddCard = () => {
           <Button variant="contained">Confirm</Button>
         </Stack>
       </form>
-    </Stack>
+    </>
   );
 };
 

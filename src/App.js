@@ -19,6 +19,10 @@ import CardDeposit from "./services/cardDeposit/CardDeposit";
 import Withdraw from "./services/withdraw/Withdraw";
 import RequestInvoice from "./services/requestInvoice/RequestInvoice";
 import RequestInvoiceConfirm from "./services/requestInvoiceConfirm/RequestInvoiceConfirm";
+import Transactions from "./pages/transactions/Transactions";
+import Notifications from "./pages/notifications/Notifications";
+import Bills from "./services/bills/Bills";
+import Telecom from "./services/bills/telecom/Telecom";
 
 import "./App.css";
 
@@ -74,6 +78,16 @@ function App() {
                         path="confirm"
                         element={<RequestInvoiceConfirm />}
                       />
+                    </Route>
+                  </Route>
+                  <Route path="transactions" element={<Transactions />} />
+                  <Route path="notifications" element={<Notifications />} />
+                  <Route path="services">
+                    <Route path="bills">
+                      <Route index element={<Bills />} />
+                      <Route path="telecom">
+                        <Route index element={<Telecom />} />
+                      </Route>
                     </Route>
                   </Route>
                 </Route>

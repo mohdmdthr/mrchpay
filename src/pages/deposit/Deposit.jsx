@@ -10,12 +10,7 @@ import { Box } from "@mui/system";
 
 const ManageCode = () => {
   return (
-    <Stack
-      sx={{
-        minHeight: "100vh",
-        justifyContent: "space-between",
-      }}
-    >
+    <>
       <PageTitle
         icon={<AccountBalanceOutlinedIcon />}
         title="Manage Code"
@@ -46,7 +41,7 @@ const ManageCode = () => {
           visiblilty: "hidden",
         }}
       />
-    </Stack>
+    </>
   );
 };
 

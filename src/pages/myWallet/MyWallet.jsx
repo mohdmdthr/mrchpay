@@ -9,7 +9,7 @@ import QrCode2Icon from "@mui/icons-material/QrCode2";
 
 const MyWallet = () => {
   return (
-    <Stack justifyContent="space-between" minHeight="100vh">
+    <>
       <PageTitle
         icon={<AccountBalanceWalletOutlinedIcon />}
         title="My Wallet"
@@ -84,7 +84,7 @@ const MyWallet = () => {
           Manage Code
         </Button>
       </Stack>
-    </Stack>
+    </>
   );
 };
 

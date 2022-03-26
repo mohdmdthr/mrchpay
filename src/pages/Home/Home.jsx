@@ -68,10 +68,10 @@ const Home = () => {
         <Button component={Link} to="/my-wallet">
           <AccountBalanceWalletOutlinedIcon fontSize="large" />
         </Button>
-        <Button>
+        <Button component={Link} to="/transactions">
           <AccessTimeOutlinedIcon fontSize="large" />
         </Button>
-        <Button>
+        <Button component={Link} to="/notifications">
           <CircleNotificationsOutlinedIcon fontSize="large" />
         </Button>
       </ButtonGroup>
@@ -107,7 +107,12 @@ const Home = () => {
             </Button>
           </Grid>
           <Grid item xs={4}>
-            <Button variant="contained" size="large">
+            <Button
+              variant="contained"
+              size="large"
+              component={Link}
+              to="/services/bills"
+            >
               <ReceiptOutlinedIcon fontSize="large" />
             </Button>
           </Grid>

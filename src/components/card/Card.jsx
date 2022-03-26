@@ -19,7 +19,7 @@ const Card = ({
         borderRadius: "15px",
         width: "330px",
         height: "200px",
-        mt: "2rem",
+        mt: "1rem",
         padding: "1rem",
         "& img": {
           width: "48px",
